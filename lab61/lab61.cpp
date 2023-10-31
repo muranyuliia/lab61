@@ -55,6 +55,8 @@ void replaceElementsWithZeros(int arr[], int index = 0) {
 
     if (arr[index] % 2 != 0 && index % 7 != 0) {
         arr[index] = 0;
+
+
     }
 
     replaceElementsWithZeros(arr, index + 1);
